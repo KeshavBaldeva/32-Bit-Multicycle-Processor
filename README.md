@@ -2,6 +2,7 @@
 Implementation of a complete MIPS Multicycle processor using Verilog
 # Multicycle MIPS processor
 ![Main-Processor](https://github.com/KeshavBaldeva/Multicycle-Processor/assets/152970391/f4a9920d-16f9-4066-9999-e18cfddfcefc)
+
 # Control Unit Internal Structure
 <img width="219" alt="Screenshot 2024-05-21 114651" src="https://github.com/KeshavBaldeva/Multicycle-Processor/assets/152970391/fd683eb8-7d68-4782-b2f6-42e1e743de9e">
 # ALUOp Encoding
