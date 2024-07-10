@@ -17,12 +17,12 @@ end
 always@(posedge clk)
 begin
   if(WE)
-  MEM[Adr[31:2]]<=WD;
+    MEM[Adr[10:2]]<=WD;
 end
 
 always@(posedge clk)
 begin
-  RD<=MEM[Adr[31:2]];
+  RD<=MEM[Adr[10:2]];
 end
 
 //We can also use Byte level access by this code.
