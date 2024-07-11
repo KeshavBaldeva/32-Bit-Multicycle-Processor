@@ -8,7 +8,7 @@ output reg [31:0]PCJump;
 
 always@(*)
 begin
-  PCJump = {PCout[31:26],Instr[25:0]};
+  PCJump = {PCout[31:28],Instr[25:0],2'b00};
 end
 
 endmodule
